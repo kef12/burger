@@ -1,7 +1,7 @@
-INSERT INTO burgers (burger_name) VALUES ('Baby Can You Chive My Car Burger');
-INSERT INTO burgers (burger_name) VALUES ('Sympathy for the Deviled Egg Burger');
-INSERT INTO burgers (burger_name) VALUES ('Bohemian Radishy Burger');
+-- Select burgers_db
+USE burgers_db;
 
-INSERT INTO burgers (devoured) VALUES (false);
-INSERT INTO burgers (devoured) VALUES (false);
-INSERT INTO burgers (devoured) VALUES (false);
+-- insert 3 burgers
+INSERT INTO burgers (burger_name, devoured) VALUES ('Baby, You Can Chive My Car Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Sympathy for the Deviled Egg Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Bohemian Radishy Burger', false);
